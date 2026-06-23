@@ -22,9 +22,5 @@ authRouter.post("/me",(req:Request,res:Response)=>{
     
 })
 
-authRouter.post("/profile",(req:Request,res:Response)=>{
-    
-})
-
 
 export default authRouter
