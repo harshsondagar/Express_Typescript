@@ -18,9 +18,9 @@ authRouter.post("/refresh",(req:Request,res:Response)=>{
     
 })
 
-authRouter.post("/me",(req:Request,res:Response)=>{
+authRouter.post("/avatar",(req:Request,res:Response)=>{
     
 })
-
+    
 
 export default authRouter
