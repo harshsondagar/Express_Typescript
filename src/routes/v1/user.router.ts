@@ -19,8 +19,5 @@ userRouter.delete("/:userId",(req:Request,res:Response)=>{
     
 })
 
-userRouter.delete("/:userId",(req:Request,res:Response)=>{
-    
-})
 
 export default userRouter
