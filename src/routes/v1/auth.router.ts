@@ -5,8 +5,6 @@ const authRouter = Router()
 
 authRouter.post("/register",(req:Request,res:Response)=>{
     
-    throw new appError(401,"invalid credentials ")
- 
 })
 
 authRouter.post("/login",(req:Request,res:Response)=>{
