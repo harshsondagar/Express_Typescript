@@ -18,13 +18,9 @@ authRouter.post("/refresh",(req:Request,res:Response)=>{
     
 })
 
-<<<<<<< HEAD
-
-=======
 authRouter.post("/avatar",(req:Request,res:Response)=>{
     
 })
     
->>>>>>> feat/auth
 
 export default authRouter
