@@ -1,6 +1,6 @@
-import router, { Request, Response } from "express"
+import  { Router, Request, Response } from "express"
 
-const authRouter = router()
+const authRouter = Router()
 
 authRouter.post("/register",(req:Request,res:Response)=>{
 

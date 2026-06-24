@@ -1,13 +1,16 @@
-import router, { Request, Response } from "express"
+import {Router, Request, Response } from "express"
+import appError from "../../utils/utils.error"
 
-const authRouter = router()
+const authRouter = Router()
 
 authRouter.post("/register",(req:Request,res:Response)=>{
-
+    
+    throw new appError(401,"invalid credentials ")
+ 
 })
 
 authRouter.post("/login",(req:Request,res:Response)=>{
-    
+    throw Error("Dada")
 })
 
 authRouter.post("/logout",(req:Request,res:Response)=>{
